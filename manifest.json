@@ -1,0 +1,145 @@
+{
+  "name": "MLSN Corp — Franchising Operations",
+  "short_name": "MLSN Corp",
+  "description": "MLSN Franchising Solution Corporation — delivery tracking, customer management, chat, and operations dashboard.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#0f1f3d",
+  "background_color": "#0f1f3d",
+  "lang": "en-PH",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "logistics"],
+
+  "icons": [
+    {
+      "src": "icons/icon-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "screenshots/desktop-dashboard.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Dashboard — delivery overview and live map"
+    },
+    {
+      "src": "screenshots/mobile-dashboard.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile dashboard — stat cards and active deliveries"
+    },
+    {
+      "src": "screenshots/mobile-chat.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Customer chat — real-time messaging"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Deliveries",
+      "short_name": "Deliveries",
+      "description": "View and manage active deliveries",
+      "url": "./index.html#deliveries",
+      "icons": [
+        {
+          "src": "icons/shortcut-delivery.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Chat",
+      "short_name": "Chat",
+      "description": "Open customer support chat",
+      "url": "./index.html#chat",
+      "icons": [
+        {
+          "src": "icons/shortcut-chat.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Announcements",
+      "short_name": "Announce",
+      "description": "View latest announcements",
+      "url": "./index.html#announcements",
+      "icons": [
+        {
+          "src": "icons/shortcut-announce.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+
+  "prefer_related_applications": false
+}
