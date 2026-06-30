@@ -7,8 +7,8 @@
 
 /* ── 0. CONFIGURATION ──────────────────────────────────────── */
 const CONFIG = {
-  SUPABASE_URL:    'YOUR_SUPABASE_URL',
-  SUPABASE_ANON:   'YOUR_SUPABASE_ANON_KEY',
+  SUPABASE_URL:    'https://uiwqveordiemduheyfox.supabase.co/rest/v1/',
+  SUPABASE_ANON:   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVpd3F2ZW9yZGllbWR1aGV5Zm94Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzNzExNjQsImV4cCI6MjA5Nzk0NzE2NH0.TF1IH4zYZeXK49ysOY5fA0E1KQySGjWoqXImXu0xGb4',
   MAPS_API_KEY:    'YOUR_GOOGLE_MAPS_API_KEY',
   MAPS_CENTER:     { lat: 14.5995, lng: 120.9842 }, // Manila default
   PAGE_SIZE:       15,
