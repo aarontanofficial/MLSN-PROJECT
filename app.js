@@ -129,12 +129,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   loadGoogleMaps();
   bindGlobalUI();
 
-  const { data: { session } } = await supabase.auth.getSession();
-  if (session) {
-    await bootApp(session.user);
-  } else {
-    showScreen('auth');
-  }
+ const { data: { session } } = await supabase.auth.getSession();
+if (session) {
+  await bootApp(session.user);
+} else {
+  showScreen('auth');
+  hideLoading();
+}
 
   supabase.auth.onAuthStateChange(async (event, session) => {
     if (event === 'SIGNED_IN' && session) {
