@@ -7,7 +7,7 @@
 
 /* ── 0. CONFIGURATION ──────────────────────────────────────── */
 const CONFIG = {
-  SUPABASE_URL:    'https://nvrsifwguywmuvaraveo.supabase.co/rest/v1/',
+  SUPABASE_URL:    'https://nvrsifwguywmuvaraveo.supabase.co',
   SUPABASE_ANON:   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im52cnNpZndndXl3bXV2YXJhdmVvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI2Njc1MzYsImV4cCI6MjA5ODI0MzUzNn0.8YwK28pqDolGi71VcDATrNk3ruMQc93M6tRpob-8Qdk',
   MAPS_API_KEY:    'YOUR_GOOGLE_MAPS_API_KEY',
   MAPS_CENTER:     { lat: 14.5995, lng: 120.9842 }, // Manila default
