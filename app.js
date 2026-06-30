@@ -17,7 +17,7 @@ const CONFIG = {
 };
 
 /* ── 1. SUPABASE CLIENT ────────────────────────────────────── */
-const supabase = window.supabase.createClient(
+const sb = window.supabase.createClient(
   CONFIG.SUPABASE_URL,
   CONFIG.SUPABASE_ANON,
   {
@@ -29,6 +29,7 @@ const supabase = window.supabase.createClient(
     realtime: { params: { eventsPerSecond: 10 } },
   }
 );
+window.supabase = sb;
 
 /* ── 2. APP STATE ──────────────────────────────────────────── */
 const State = {
